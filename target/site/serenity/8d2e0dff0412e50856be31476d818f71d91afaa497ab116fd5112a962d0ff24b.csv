@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","POST - Membuat data post baru (negatif)","FAILURE","2023-04-24T15:25:15.3909169+07:00[Asia/Jakarta]","0.0","0.73"
+"User","GET - Mendapatkan data post berdasarkan ID (negatif)","FAILURE","2023-04-24T15:25:16.4782121+07:00[Asia/Jakarta]","0.0","0.73"
+"User","PUT - Mengubah data post berdasarkan ID (negatif)","FAILURE","2023-04-24T15:25:17.92941+07:00[Asia/Jakarta]","0.0","0.7"

@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"User","GET - Mendapatkan semua data post","SUCCESS","2023-04-24T15:25:11.0531535+07:00[Asia/Jakarta]","0.0","3.12"
+"User","POST - Membuat data post baru","SUCCESS","2023-04-24T15:25:14.2021676+07:00[Asia/Jakarta]","0.0","1.17"
+"User","GET - Mendapatkan data post berdasarkan ID","SUCCESS","2023-04-24T15:25:16.2052333+07:00[Asia/Jakarta]","0.0","0.26"
+"User","PUT - Mengubah data post berdasarkan ID","SUCCESS","2023-04-24T15:25:17.2160659+07:00[Asia/Jakarta]","0.0","0.71"
+"User","DELETE - Menghapus data post berdasarkan ID","SUCCESS","2023-04-24T15:25:18.6382301+07:00[Asia/Jakarta]","0.0","0.66"

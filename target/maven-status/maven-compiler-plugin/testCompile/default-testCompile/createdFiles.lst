@@ -1,0 +1,10 @@
+starter\user\Post.class
+starter\CucumberTestSuite.class
+starter\stepdefinitions\UserSteps.class
+starter\user\Put.class
+starter\user\Delete.class
+starter\user\Get_negatif.class
+starter\user\Get2.class
+starter\user\Get.class
+starter\user\Put_negatif.class
+starter\user\Post_negatif.class
