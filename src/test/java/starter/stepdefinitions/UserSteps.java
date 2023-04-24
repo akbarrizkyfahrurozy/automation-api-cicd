@@ -13,15 +13,9 @@ public class UserSteps {
     @Steps
     Post post;
     @Steps
-    Post_negatif post_negatif;
-    @Steps
     Get2 get2;
     @Steps
-    Get_negatif get_negatif;
-    @Steps
     Put put;
-    @Steps
-    Put_negatif put_negatif;
     @Steps
     Delete delete;
     @Given("I set GET url posts")
@@ -43,14 +37,6 @@ public class UserSteps {
     public void iReceiveValidDataForDetailUser() {
         get2.iReceiveValidDataForDetailUser();
     }
-    @Given("I set GET url postss")
-    public void iSetGETUrlPostss() {
-        get_negatif.iSetGETUrlPostss();
-    }
-    @When("I send get HTTP requests")
-    public void iSendGetHTTPRequests() {
-        get_negatif.iSendGetHTTPRequests();
-    }
     @Given("I set post api endpoints")
     public void iSetPostApiEndpoints() {
         post.iSetPostApiEndpoints();
@@ -70,14 +56,6 @@ public class UserSteps {
     public void iReceiveValidDataForNewUser() {
         post.iReceiveValidDataForNewUser();
     }
-    @When("I send POST HTTP requestt")
-    public void iSendPOSTHTTPRequestt() {
-        post_negatif.iSendPOSTHTTPRequestt();
-    }
-    @Then("I receive invalid data for new user")
-    public void iReceiveInalidDataForNewUser() {
-        post_negatif.iReceiveInalidDataForNewUser();
-    }
     @Given("I set PUT api endpoints")
     public void iSetPUTApiEndpoints() {
         put.iSetPUTApiEndpoints();
@@ -91,15 +69,6 @@ public class UserSteps {
     public void iReceiveValidDataForUpdatedUser() {
         put.iReceiveValidDataForUpdatedUser();
     }
-    @Given("I set PUT api endpointss")
-    public void iSetPUTApiEndpointss() {
-        put_negatif.iSetPUTApiEndpointss();
-    }
-    @Then("I receive invalid HTTP response code 500")
-    public void iReceiveInvalidHTTPResponseCode() {
-        put_negatif.iReceiveInvalidHTTPResponseCode500();
-    }
-
     @Given("I set DELETE api endpoints")
     public void iSetDELETEApiEndpoints() {
         delete.iSetDELETEApiEndpoints();
